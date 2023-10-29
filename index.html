@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Insta Profile Downloader</title>
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <div class="left-container">
+          <h1>LET'S DOWNLOAD</h1>
+          <h4>
+            Input your Instagram username to download your profile picture
+          </h4>
+          <form id="username-form" method="post">
+            <div class="form-inputs">
+              <input
+                type="text"
+                name="username"
+                placeholder="Phone number, username, or email"
+                required
+              />
+            </div>
+            <div class="form-btn">
+              <div>
+                <button id="form-submit-btn"></button>
+                <!-- <button type="submit">Get Profile Picture</button> -->
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="right-container ">
+          <div>
+            <!-- <div id="no-image" class="no-image">X</div> -->
+            <img id="img" src="./profile.jpg"/>
+          </div>
+          <div>
+            <a href="./profile.jpg" id="download" download="profile.jpg"
+              >Download</a
+            >
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="./frontend.js" type="module"></script>
+  </body>
+</html>
