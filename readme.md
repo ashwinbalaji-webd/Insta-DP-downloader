@@ -1,21 +1,21 @@
-### Instagram Profile Downloader
+# Instagram Profile Downloader
 ## Description
 This is a simple web application that allows you to download a user's Instagram profile picture by providing their username.
 
-# Installation
+### Installation
 To run this project, you'll need to have Node.js installed on your system. If you don't have it, you can download it from Node.js Official Website.
 
-# Clone this repository to your local machine:
+### Clone this repository to your local machine:
 git clone <repository-url>
 
-# Navigate to the project directory:
+### Navigate to the project directory:
 cd instagram-profile-downloader
 
-# Install the project dependencies using npm or yarn:
+### Install the project dependencies using npm or yarn:
 npm install
 
 ## Usage
-# Start the backend server by running the following command:
+### Start the backend server by running the following command:
 npm start
 
 Open your web browser and navigate to this project root to access the Instagram Profile Downloader.
