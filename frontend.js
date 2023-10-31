@@ -23,30 +23,9 @@ form.addEventListener("submit", async (e) => {
 
   if (data.success) {
     setTimeout(()=>window.location.reload(),2000)
-    
-    const downloadBtn = document.getElementById("download");
-    const img = document.getElementById("img");
-    const noImg = document.getElementById("no-image");
-
-    downloadBtn.classList.remove("no-download", "disable");
-
-    downloadBtn.setAttribute("href", "./profile.jpg");
-
-    noImg && noImg.remove();
-
-    img.setAttribute("src", "./profile.jpg");
   }
   else{
     console.error("Error:", data.error);
   }
 
 });
-
-  // if (!(response.ok && response.status == "200")) {
-  //   throw new Error("Invalid request!");
-  // }
-
-
-  // if (!data.status && !data.hasOwnProperty("url")) {
-  //   throw new Error(response.error);
-  // }
